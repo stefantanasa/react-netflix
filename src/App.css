@@ -1,0 +1,36 @@
+.App {
+  background-color: black;
+}
+
+.MyNavbar {
+  display: flex;
+  position: absolute;
+  list-style-type: none;
+  gap: 1rem;
+}
+
+html {
+  background-color: black;
+  color: aliceblue;
+}
+.Jumbotron {
+  width: 100%;
+  height: 75vh;
+  object-fit: cover;
+}
+.movie-card {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: 22rem;
+  width: 22rem;
+  background-color: aqua;
+}
+.section-name {
+  margin: 2rem;
+}
+.movie-img {
+  position: absolute;
+  object-fit: cover;
+  height: 15rem;
+}
