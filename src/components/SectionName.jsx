@@ -1,11 +1,15 @@
 import React, { Component } from "react";
 import MovieCard from "./MovieCard";
 
-const SectionName = ({ sectionName }) => {
+const SectionName = ({ sectionName, moviesArray }) => {
+  let movies = moviesArray;
+
   return (
     <div className="section-name">
       <h2>{sectionName}</h2>
-      <MovieCard />
+      {movies.map((m) => (
+        <MovieCard movie={m} />
+      ))}
     </div>
   );
 };

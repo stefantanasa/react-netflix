@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 import SectionName from "./SectionName";
 
-const MoviesSection = () => {
+const MoviesSection = ({ moviesArray }) => {
   return (
     <div>
-      <SectionName sectionName={"Popular on Netflix"} />
-      <SectionName sectionName={"Tranding Now"} />
-      <SectionName sectionName={"Violent Suspense TV Programmes"} />
+      <SectionName
+        moviesArray={moviesArray}
+        sectionName={"Popular on Netflix"}
+      />
     </div>
   );
 };

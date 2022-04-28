@@ -24,7 +24,7 @@ html {
   position: relative;
   height: 22rem;
   width: 22rem;
-  background-color: aqua;
+  background-color: rgb(205, 255, 255);
 }
 .section-name {
   margin: 2rem;
@@ -33,4 +33,9 @@ html {
   position: absolute;
   object-fit: cover;
   height: 15rem;
+}
+.details-btn {
+  position: absolute;
+  bottom: 0px;
+  color: white;
 }
